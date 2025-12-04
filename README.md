@@ -86,13 +86,21 @@ Você pode rodar o projeto localmente usando uma extensão de servidor, como o L
 # Estrutura do Projeto
 .
 ├── css/
+
 │   └── style.css          # Estilos principais da aplicação.
+
 ├── js/
+
 │   ├── api.js             # Funções para buscar dados (Spotify e MusicBrainz).
+
 │   ├── app.js             # Lógica principal da interface (renderização, navegação).
+
 │   ├── auth.js            # Lógica de login/registro (simulado localmente).
+
 │   └── spotify.js         # Lógica do fluxo de autenticação PKCE do Spotify.
+
 └── index.html             # Estrutura principal da aplicação web.
+
 # Contribuições
 Contribuições são bem-vindas! Se você encontrou um erro ou tem uma sugestão de recurso, sinta-se à vontade para abrir uma Issue ou enviar um Pull Request.
 
